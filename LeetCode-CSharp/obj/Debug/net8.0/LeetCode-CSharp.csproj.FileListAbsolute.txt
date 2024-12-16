@@ -12,3 +12,4 @@ D:\Programming\C#\LeetCode\LeetCode-CSharp\LeetCode-CSharp\obj\Debug\net8.0\refi
 D:\Programming\C#\LeetCode\LeetCode-CSharp\LeetCode-CSharp\obj\Debug\net8.0\LeetCode-CSharp.pdb
 D:\Programming\C#\LeetCode\LeetCode-CSharp\LeetCode-CSharp\obj\Debug\net8.0\LeetCode-CSharp.genruntimeconfig.cache
 D:\Programming\C#\LeetCode\LeetCode-CSharp\LeetCode-CSharp\obj\Debug\net8.0\ref\LeetCode-CSharp.dll
+D:\Programming\C#\LeetCode\LeetCode-CSharp\LeetCode-CSharp\obj\Debug\net8.0\LeetCode-CSharp.sourcelink.json
