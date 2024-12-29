@@ -32,6 +32,12 @@ namespace LeetCode_CSharp
             {
                 Console.WriteLine("Result is null");
             }
+
+            // Palindrome Number
+            var resPalindromeNumber = new PalindromeNumber();
+            var x = -121;
+            Console.WriteLine();
+            Console.WriteLine(resPalindromeNumber.IsPalindrome((x)));
         }
     }
 }
