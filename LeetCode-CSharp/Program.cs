@@ -38,6 +38,12 @@ namespace LeetCode_CSharp
             var x = -121;
             Console.WriteLine();
             Console.WriteLine(resPalindromeNumber.IsPalindrome((x)));
+
+            // Roman To Integer
+            RomanToInteger romanToInt = new RomanToInteger();
+            Console.WriteLine(romanToInt.RomanToInt("III"));
+            Console.WriteLine(romanToInt.RomanToInt("LVIII"));
+            Console.WriteLine(romanToInt.RomanToInt("MCMXCIV"));
         }
     }
 }
