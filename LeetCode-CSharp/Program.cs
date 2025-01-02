@@ -44,6 +44,13 @@ namespace LeetCode_CSharp
             Console.WriteLine(romanToInt.RomanToInt("III"));
             Console.WriteLine(romanToInt.RomanToInt("LVIII"));
             Console.WriteLine(romanToInt.RomanToInt("MCMXCIV"));
+
+            // Longest Common Prefix
+            LongestCommonPrefix longestCommonPrefix = new LongestCommonPrefix();
+            string[] strs = ["flower", "flow", "flight"];
+            string[] strs1 = ["dog", "racecar", "car"];
+            Console.WriteLine(longestCommonPrefix.LongestCommonPre(strs));
+            Console.WriteLine(longestCommonPrefix.LongestCommonPre(strs1));
         }
     }
 }
