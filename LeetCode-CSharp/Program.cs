@@ -51,6 +51,17 @@ namespace LeetCode_CSharp
             string[] strs1 = ["dog", "racecar", "car"];
             Console.WriteLine(longestCommonPrefix.LongestCommonPre(strs));
             Console.WriteLine(longestCommonPrefix.LongestCommonPre(strs1));
+
+            // Valid Parentheses
+            ValidParentheses isValid = new ValidParentheses();
+            var s = "()";
+            var s1 = "()[]{}";
+            var s2 = "(]";
+            var s3 = "([])";
+            Console.WriteLine(isValid.IsValid(s));
+            Console.WriteLine(isValid.IsValid(s1));
+            Console.WriteLine(isValid.IsValid(s2));
+            Console.WriteLine(isValid.IsValid(s3));
         }
     }
 }
