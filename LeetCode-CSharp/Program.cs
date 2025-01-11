@@ -62,6 +62,18 @@ namespace LeetCode_CSharp
             Console.WriteLine(isValid.IsValid(s1));
             Console.WriteLine(isValid.IsValid(s2));
             Console.WriteLine(isValid.IsValid(s3));
+
+            // Merge Two Sorted List
+            MergeTwoSortedList.ListNode list1 = new MergeTwoSortedList.ListNode(1, new MergeTwoSortedList.ListNode(2, new MergeTwoSortedList.ListNode(4)));
+            MergeTwoSortedList.ListNode list2 = new MergeTwoSortedList.ListNode(1, new MergeTwoSortedList.ListNode(3, new MergeTwoSortedList.ListNode(4)));
+
+            MergeTwoSortedList mergeTwoSortedList = new MergeTwoSortedList();
+            MergeTwoSortedList.ListNode mergedList = mergeTwoSortedList.MergeTwoLists(list1, list2);
+            while (mergedList != null)
+            {
+                Console.WriteLine(mergedList.val + " ");
+                mergedList = mergedList.next;
+            }
         }
     }
 }
