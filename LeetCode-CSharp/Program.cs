@@ -74,6 +74,13 @@ namespace LeetCode_CSharp
                 Console.WriteLine(mergedList.val + " ");
                 mergedList = mergedList.next;
             }
+
+            // Remove Duplicates From Sorted Array
+            RemoveDuplicatesFromSortedArray removeDuplicates = new RemoveDuplicatesFromSortedArray();
+            var nums1 = new int[]{ 1, 1, 2 };
+            var nums2 = new int[] { 0, 0, 1, 1, 1, 2, 2, 3, 3, 4 };
+            Console.WriteLine(removeDuplicates.RemoveDuplicates(nums1));
+            Console.WriteLine(removeDuplicates.RemoveDuplicates(nums2));
         }
     }
 }
