@@ -81,6 +81,15 @@ namespace LeetCode_CSharp
             var nums2 = new int[] { 0, 0, 1, 1, 1, 2, 2, 3, 3, 4 };
             Console.WriteLine(removeDuplicates.RemoveDuplicates(nums1));
             Console.WriteLine(removeDuplicates.RemoveDuplicates(nums2));
+
+            // Remove Element
+            RemoveElement removeElement = new RemoveElement();
+            var nums3 = new int[] { 3,2,2,3};
+            int val = 3;
+            var nums4 = new int[] { 0,1,2,2,3,0,4,2 };
+            int val1 = 2;
+            Console.WriteLine(removeElement.RemoveElements(nums3, val));
+            Console.WriteLine(removeElement.RemoveElements(nums4, val1));
         }
     }
 }
