@@ -90,6 +90,15 @@ namespace LeetCode_CSharp
             int val1 = 2;
             Console.WriteLine(removeElement.RemoveElements(nums3, val));
             Console.WriteLine(removeElement.RemoveElements(nums4, val1));
+
+            // Find the Index of the First Occurence in a String
+            _28FirstOccurrenceInAString firstOccurrence = new _28FirstOccurrenceInAString();
+            string haystack = "sadbudsad";
+            string needle = "sad";
+            string haystack1 = "leetcode";
+            string needle1 = "leeto";
+            Console.WriteLine("First Occurrence: {0}", firstOccurrence.StrStr(haystack, needle));
+            Console.WriteLine("First Occurrence1: {0}", firstOccurrence.StrStr(haystack1, needle1));
         }
     }
 }
