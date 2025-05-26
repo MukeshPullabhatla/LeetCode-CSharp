@@ -99,6 +99,15 @@ namespace LeetCode_CSharp
             string needle1 = "leeto";
             Console.WriteLine("First Occurrence: {0}", firstOccurrence.StrStr(haystack, needle));
             Console.WriteLine("First Occurrence1: {0}", firstOccurrence.StrStr(haystack1, needle1));
+
+            // 796 Rotate String
+            _796_RotateString rotateString = new _796_RotateString();
+            string str1 = "abcde";
+            string goal1 = "cdeab";
+            Console.WriteLine("Rotate String 1: {0}", rotateString.RotateString(str1, goal1));
+            string str2 = "abcde";
+            string goal2 = "abced";
+            Console.WriteLine("Rotate String 2: {0}", rotateString.RotateString(str2, goal2));
         }
     }
 }
