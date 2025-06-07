@@ -108,6 +108,13 @@ namespace LeetCode_CSharp
             string str2 = "abcde";
             string goal2 = "abced";
             Console.WriteLine("Rotate String 2: {0}", rotateString.RotateString(str2, goal2));
+
+            // Find the earliest repeating character in a string. Given a string S of length n, find the earliest character that repeats more than once. If no character repeats, return -1.
+            string input = "geeksforgeeks";
+            string input1 = "hello geeks";
+            EarliestRepeatingCharacter erc = new EarliestRepeatingCharacter();
+            Console.WriteLine(erc.FirstRepChar(input));
+            Console.WriteLine(erc.FirstRepChar(input1));
         }
     }
 }
