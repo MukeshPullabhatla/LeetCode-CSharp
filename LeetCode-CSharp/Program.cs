@@ -115,6 +115,13 @@ namespace LeetCode_CSharp
             EarliestRepeatingCharacter erc = new EarliestRepeatingCharacter();
             Console.WriteLine(erc.FirstRepChar(input));
             Console.WriteLine(erc.FirstRepChar(input1));
+
+            // Sort String of Characters. Given a string of lowercase characters, sort the string in ascending order based on the ASCII values of the characters.
+            string a1 = "dcab";
+            string a2 = "geeksforgeeks";
+            SortStringOfCharacters sortString = new SortStringOfCharacters();
+            Console.WriteLine(sortString.SortString(a1));
+            Console.WriteLine(sortString.SortString(a2));
         }
     }
 }
